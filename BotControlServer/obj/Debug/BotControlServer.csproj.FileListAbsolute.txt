@@ -1,0 +1,7 @@
+D:\Project\Botcontrol\BotControlServer\bin\BotControlServer.dll
+D:\Project\Botcontrol\BotControlServer\bin\BotControlServer.pdb
+D:\Project\Botcontrol\BotControlServer\obj\Debug\BotControlServer.dll
+D:\Project\Botcontrol\BotControlServer\obj\Debug\BotControlServer.pdb
+D:\Project\Botcontrol\BotControlServer\bin\CheckResponseContract.dll
+D:\Project\Botcontrol\BotControlServer\bin\CheckResponseContract.pdb
+D:\Project\Botcontrol\BotControlServer\obj\Debug\BotControlServer.csprojResolveAssemblyReference.cache
