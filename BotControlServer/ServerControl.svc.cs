@@ -9,13 +9,16 @@ using CheckResponseContract;
 
 namespace BotControlServer
 {
-    // ПРИМЕЧАНИЕ. Команду "Переименовать" в меню "Рефакторинг" можно использовать для одновременного изменения имени класса "Service1" в коде, SVC-файле и файле конфигурации.
-    // ПРИМЕЧАНИЕ. Чтобы запустить клиент проверки WCF для тестирования службы, выберите элементы Service1.svc или Service1.svc.cs в обозревателе решений и начните отладку.
-    public class ServerControl : ICheckControlCotract
+    
+    public class ServerCheckControl : ICheckControlCotract
     {
         public List<CheckResponse> GetData()
         {
-           return new List<CheckResponse>();
+           return new List<CheckResponse>
+           {
+               new CheckResponse("Quik",new TimeSpan(10,10,10),"0"),
+               new CheckResponse("MT5",new TimeSpan(11,11,11),"2")
+           };
         }
     }
 }

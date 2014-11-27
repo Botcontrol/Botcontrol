@@ -3,5 +3,4 @@ D:\Project\Botcontrol\CheckResponseContract\bin\Debug\CheckResponseContract.dll
 D:\Project\Botcontrol\CheckResponseContract\bin\Debug\CheckResponseContract.pdb
 D:\Project\Botcontrol\CheckResponseContract\obj\Debug\CheckResponseContract.dll
 D:\Project\Botcontrol\CheckResponseContract\obj\Debug\CheckResponseContract.pdb
-D:\Project\Botcontrol\CheckResponseContract\bin\Debug\CheckResponseContract.dll.CodeAnalysisLog.xml
-D:\Project\Botcontrol\CheckResponseContract\bin\Debug\CheckResponseContract.dll.lastcodeanalysissucceeded
+D:\Project\Botcontrol\CheckResponseContract\obj\Debug\CheckResponseContract.csprojResolveAssemblyReference.cache
