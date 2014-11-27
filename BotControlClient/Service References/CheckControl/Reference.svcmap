@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f182a935-9873-4712-a469-c4e8a39885e2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:6516/CheckControl.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CheckControl.xsd" MetadataType="Schema" ID="882ed517-4180-4a58-9769-4186aead5a47" SourceId="1" SourceUrl="http://localhost:6516/CheckControl.svc?xsd=xsd1" />
+    <MetadataFile FileName="CheckControl.disco" MetadataType="Disco" ID="defdc12e-f0c1-4b36-98a8-58d354716e35" SourceId="1" SourceUrl="http://localhost:6516/CheckControl.svc?disco" />
+    <MetadataFile FileName="CheckControl.wsdl" MetadataType="Wsdl" ID="23250c6e-d49e-45d7-ad38-8004dc1eca39" SourceId="1" SourceUrl="http://localhost:6516/CheckControl.svc?wsdl" />
+    <MetadataFile FileName="CheckControl1.xsd" MetadataType="Schema" ID="7bb28dce-bb5e-4e7f-b550-dd7d31c6d626" SourceId="1" SourceUrl="http://localhost:6516/CheckControl.svc?xsd=xsd2" />
+    <MetadataFile FileName="CheckControl2.xsd" MetadataType="Schema" ID="736cff96-52ca-463e-9dfd-e5ae69527431" SourceId="1" SourceUrl="http://localhost:6516/CheckControl.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

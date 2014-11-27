@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BotControlClient.CheckControl;
 
 namespace BotControlClient
 {
@@ -27,7 +28,14 @@ namespace BotControlClient
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            var curClient = new CheckControlClient();
+            var info = curClient.GetData();
+            foreach (var checkResponse in info)
+            {
+                CurProblemBox.Items.Add("Ошибка - " + checkResponse.CodeNumber + " " + " " +
+                                        checkResponse.CheckTime.ToString("hh':'mm':'ss") + " " +
+                                        checkResponse.FolderName);
+            }
         }
     }
 }

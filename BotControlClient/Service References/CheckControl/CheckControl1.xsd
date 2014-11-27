@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/BotControlServer" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BotControlServer" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:6516/CheckControl.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfCheckResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CheckResponse" nillable="true" type="tns:CheckResponse" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCheckResponse" nillable="true" type="tns:ArrayOfCheckResponse" />
+  <xs:complexType name="CheckResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CheckTime" type="ser:duration" />
+      <xs:element minOccurs="0" name="CodeNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FolderName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CheckResponse" nillable="true" type="tns:CheckResponse" />
+</xs:schema>
